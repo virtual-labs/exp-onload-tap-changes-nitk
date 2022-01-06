@@ -2,38 +2,242 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In a transformer, if N2 is number of secondary winding N1 is the number of primary winding then, if (N2/N1) ratio is greater than 1.It is called as ________  ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Step down transformer",
+        "b": "Step up transformer",
+        "c": "Isolation transformer",
+        "d": "All"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": ""
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In a transformer, if N2 is number of secondary winding N1 is the number of primary winding then, if (N2/N1) ratio is lesser than 1.It is called as ________",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Step down transformer",
+        "b": "Step up transformer",
+        "c": "Isolation transformer",
+        "d": "All"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "Oil transformer usually consist of,",
+      "answers": {
+        "a": "A conservator tank, buchholz relay",
+        "b": "Breather of dehydrating type",
+        "c": "Winding temperature-indicator, oil temperature indicatore",
+        "d": "All"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "The tap changing control equipment includes _______",
+      "answers": {
+        "a": "Control and paralleling equipment",
+        "b": "Line drop compensator equipment used along with the current transformer to provide voltage control at a point remote from the measuring point",
+        "c": "Automatic voltage regulating relay",
+        "d": "All"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "32 step tap changes provide ________ voltage change in each step.",
+      "answers": {
+        "a": "5/4%",
+        "b": "4/5%",
+        "c": "5/8%",
+        "d": "8/5%"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": ""
+    },
+    {
+      "question": "Conservator is an oil-expansion tank mounted _________ on the transformer.",
+      "answers": {
+        "a": "Below the highest oil point",
+        "b": "Ground level",
+        "c": "Above the highest oil point",
+        "d": "Any of the them"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "To prevent the moisture from entering the conservator, a __________ is provided that will dry the air as the breather takes place.",
+      "answers": {
+        "a": "Low quality icon core operating at very low flex density so that the magnetizing current may be large",
+        "b": "Magnesium dioxide breather",
+        "c": "Silica gel breather",
+        "d": "Both Low quality icon core operating at very low flex density so that the magnetizing current may be large and Magnesium dioxide breather"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "Advantage of using instrument Transformer is _______",
+      "answers": {
+        "a": "Standard rated instruments may be used easily",
+        "b": "It provides safety for operating personal",
+        "c": "Standard rated instruments may be used easily and It provides safety for operating personal",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "Instrument transformers are classified as:",
+      "answers": {
+        "a": "Potential transformer",
+        "b": "Current transformer",
+        "c": "Both Potential transformer and Current transformer",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "Potential transformers are made with",
+      "answers": {
+        "a": "Low quality icon core operating at very low flex density so that the magnetizing current may be large",
+        "b": "High quality icon core operating at very high flex density so that the magnetizing current may be large",
+        "c": "High quality icon core operating at very high flex density so that the magnetizing current may be very small",
+        "d": "High quality icon core operating at very low flex density so that the magnetizing current may be very small"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "High magnitude alternating current can be measured by a combination of _________ and _________.",
+      "answers": {
+        "a": "Potential transformer and a low range ammeter",
+        "b": "Current transformer and high range ammeter",
+        "c": "Current transformer and low range ammeter",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "A current transformer must never be operated on open circuit for",
+      "answers": {
+        "a": "There will be no secondary m.m.f. and since the primary current (and m.m.f.) is fixed, the core flux will increase enormously. This will cause large amount of eddy current and hysteresis losses and the resulting high temperature may damage the insulation or even the core",
+        "b": "As the secondary side is open, a very high voltage will be induced in the multi-turn secondary and this high voltage is dangerous to both life and to the insulation",
+        "c": "There will be no secondary m.m.f. and since the primary current (and m.m.f.) is fixed, the core flux will increase enormously. This will cause large amount of eddy current and hysteresis losses and the resulting high temperature may damage the insulation or even the core and As the secondary side is open, a very high voltage will be induced in the multi-turn secondary and this high voltage is dangerous to both life and to the insulation",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "In a power transformer, stepping down from 33kV to 11kV on load tap changes is provided along with 16 steps with 1.25% voltage changes in each step and a constant secondary voltage of 11kV is required. If the primary voltage changes from 33kV to 32kV then",
+      "answers": {
+        "a": "The taps should be lowered 1 times",
+        "b": "The taps should be lowered 3 times",
+        "c": "The taps should be lowered 5 times",
+        "d": "The taps should be raised 5 times"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "In a power transformer, stepping down from 33kV to 11kV on load tap changes is provided along with 16 steps with 1.25% voltage changes in each step and a constant secondary voltage of 11kV is required. If the primary voltage changes from 33kV to 31kV then",
+      "answers": {
+        "a": "The taps should be lowered 2 times",
+        "b": "The taps should be lowered 3 times",
+        "c": "The taps should be lowered 5 times",
+        "d": "The taps should be lowered 7 times"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
     }
   ]
 }
