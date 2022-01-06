@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<meta charset="UTF-8">
+<title>SOLVE</title>
+<link rel="stylesheet" href="css/transformer.css" />
+<script>
+var simsubscreennum=0;
+var temp=0;
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+
+</script>
+</head>
+
+<body style="margin:0; font-family:verdana;">
+<div id="simscreen">
+<div id="title"><h5>ON Load Tap Changing</h5></div>
+
+<div class="simsubscreen" id="canvas0">
+	<img src="images/main.png" id="main" class="responsive" style="position: absolute; left: 20px; top: 50px;max-width: 800px;"/>
+	<p id="tag" style="position: absolute; left: 321px; top: 468px; font-size: 14px; color: blue"></p>
+
+	<img id="leftRaise" src="./images/raise.png" style="position: absolute; left: 14px; top: 247px;max-width: 62px;height: 30px;cursor: pointer" onclick="calculateV2OnRaise(this)"/>
+	<img id="leftLower" src="./images/lower.png" style="position: absolute; left: 74px; top: 247px;max-width: 62px;height: 30px;cursor: pointer" onclick="calculateV2OnLower(this)"/>
+	
+	<img id="rightRaise" src="./images/raise.png" style="position: absolute; left: 644px; top: 247px;max-width: 62px;height: 30px;cursor: pointer" onclick="calculateV2OnRaise(this)"/>
+	<img id="rightLower" src="./images/lower.png" style="position: absolute; left: 704px; top: 247px;max-width: 62px;height: 30px;cursor: pointer" onclick="calculateV2OnLower(this)"/>
+
+	<p id="tr1VoltUp" style="position: absolute; left: 200px; top: 210px; font-size: 14px; color: red"></p>
+	<p id="tr1VoltDown" style="position: absolute; left: 200px; top: 260px; font-size: 14px; color: red"></p>
+	<p id="tr2VoltUp" style="position: absolute; left: 490px; top: 210px; font-size: 14px; color: red"></p>
+	<p id="tr2VoltDown" style="position: absolute; left: 490px; top: 260px; font-size: 14px; color: red"></p>
+
+
+
+</div>
+
+
+
+<div class="parentPopup" id="parentPopup">
+	<div class="popup" id="popUpContent">    
+		  
+	</div>
+</div>
+
+ 
+<div id="copyright"> &copy;<script>document.write(new Date().getFullYear())</script> SOLVE - The Virtual Lab @ NITK Surathkal</div>
+</div>
+<script type="text/javascript" src="js/transformer.js"></script>
+
 </body>
 </html>
