@@ -94,9 +94,9 @@ The incomer voltage can be selected from the table and in order to achieve const
 <li>if the incoming primary voltage(V1) = 32.5 kV.</li>
 </ul>
  
-Then , V1=32.5 kV      
-V2 = (32.5 / 3) = 10.83kV    
-With one time clicking on tap lower button, tap lowered by 1.25%     
+Then , V1=32.5 kV  
+V2 = (32.5 / 3) = 10.83kV  
+With one time clicking on tap lower button, tap lowered by 1.25%  
 Hence V2T= (V1/3)/ (1-0.0125) = (32.5/3)/0.9875=10.97kV.
 
 <u>To decrease secondary Bus voltage by increasing taps when there is increase in primary voltage</u>:
