@@ -1,52 +1,167 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>SOLVE</title>
-<link rel="stylesheet" href="css/transformer.css" />
-<script>
-var simsubscreennum=0;
-var temp=0;
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLVE -SA</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/transformer2.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <img src="./images/logo_nitk.png" alt="logo" class="logo" />
+        <h1>On Load Tap Changing</h1>
+      </div>
+      <div class="main">
+        <div class="voltage">
+          <p class="tr-text" id="tag"></p>
+        </div>
+        <div class="low-incomer">
+          <h3 class="heading-primary">Low Incomer Voltage</h3>
+          <div class="voltage-div low-voltage-div">
+            <button
+              class="volts volt-btn"
+              id="b1"
+              onclick="UpdateVoltageOnChange(this,33)"
+            >
+              33.0
+            </button>
+            <button
+              class="volts volt-btn"
+              id="b2"
+              onclick="UpdateVoltageOnChange(this,32.5)"
+            >
+              32.5
+            </button>
+            <button
+              class="volts volt-btn"
+              id="b3"
+              onclick="UpdateVoltageOnChange(this,32)"
+            >
+              32.0
+            </button>
+            <button
+              class="volts volt-btn"
+              id="b4"
+              onclick="UpdateVoltageOnChange(this,31.5)"
+            >
+              31.5
+            </button>
+            <button
+              class="volts volt-btn"
+              id="b5"
+              onclick="UpdateVoltageOnChange(this,31)"
+            >
+              31.0
+            </button>
+            <button
+              class="volts volt-btn"
+              id="b6"
+              onclick="UpdateVoltageOnChange(this,30.5)"
+            >
+              30.5
+            </button>
+            <button
+              class="volts volt-btn"
+              id="b7"
+              onclick="UpdateVoltageOnChange(this,30)"
+            >
+              30.0
+            </button>
+            <button
+              class="volts volt-btn"
+              id="b8"
+              onclick="UpdateVoltageOnChange(this,29.5)"
+            >
+              29.5
+            </button>
+          </div>
+          <div class="tap-settings">
+            <h3 class="heading-secondary">Tap Settings</h3>
+            <button
+              class="tap tap-raise"
+              id="leftRaise"
+              onclick="calculateV2OnRaise(this)"
+            >
+              Raise ↓
+            </button>
+            <button
+              class="tap tap-lower"
+              id="leftLower"
+              onclick="calculateV2OnLower(this)"
+            >
+              Lower ↑
+            </button>
+            <h4 class="heading-tertiary">In step of 1.25%</h4>
+          </div>
+        </div>
+        <div class="high-incomer">
+          <h3 class="heading-primary">High Incomer Voltage</h3>
+          <div class="high-voltage-div">
+            <button
+              class="volts volt-btn"
+              id="b9"
+              onclick="UpdateVoltageOnChange(this,33.5)"
+            >
+              33.5
+            </button>
+            <button
+              class="volts volt-btn"
+              id="b10"
+              onclick="UpdateVoltageOnChange(this,34)"
+            >
+              34.0
+            </button>
+          </div>
+          <div class="tap-settings">
+            <h3 class="heading-secondary">Tap Settings</h3>
+            <button
+              class="tap tap-raise"
+              id="rightRaise"
+              onclick="calculateV2OnRaise(this)"
+            >
+              Raise ↓
+            </button>
+            <button
+              class="tap tap-lower"
+              id="rightLower"
+              onclick="calculateV2OnLower(this)"
+            >
+              Lower ↑
+            </button>
+            <h4 class="heading-tertiary">In step of 1.25%</h4>
+          </div>
+        </div>
+        <div class="main-setup">
+          <img
+            src="./images/main.png"
+            alt="main"
+            class="main-setup-img"
+            id="main"
+          />
+          <p id="tr1VoltUp" class="tr tr1VoltUp"></p>
+          <p id="tr1VoltDown" class="tr tr1VoltDown"></p>
+          <p id="tr2VoltUp" class="tr tr2VoltUp"></p>
+          <p id="tr2VoltDown" class="tr tr2VoltDown"></p>
 
+          <button class="btn btn-reset" id="reset" onclick="resetSetup()">
+            Reset
+          </button>
+        </div>
+      </div>
 
-</script>
-</head>
-
-<body style="margin:0; font-family:verdana;">
-<div id="simscreen">
-<div id="title"><h5>ON Load Tap Changing</h5></div>
-
-<div class="simsubscreen" id="canvas0">
-	<img src="images/main.png" id="main" class="responsive" style="position: absolute; left: 20px; top: 50px;max-width: 800px;"/>
-	<p id="tag" style="position: absolute; left: 321px; top: 468px; font-size: 14px; color: blue"></p>
-
-	<img id="leftRaise" src="./images/raise.png" style="position: absolute; left: 14px; top: 247px;max-width: 62px;height: 30px;cursor: pointer" onclick="calculateV2OnRaise(this)"/>
-	<img id="leftLower" src="./images/lower.png" style="position: absolute; left: 74px; top: 247px;max-width: 62px;height: 30px;cursor: pointer" onclick="calculateV2OnLower(this)"/>
-	
-	<img id="rightRaise" src="./images/raise.png" style="position: absolute; left: 644px; top: 247px;max-width: 62px;height: 30px;cursor: pointer" onclick="calculateV2OnRaise(this)"/>
-	<img id="rightLower" src="./images/lower.png" style="position: absolute; left: 704px; top: 247px;max-width: 62px;height: 30px;cursor: pointer" onclick="calculateV2OnLower(this)"/>
-
-	<p id="tr1VoltUp" style="position: absolute; left: 200px; top: 210px; font-size: 14px; color: red"></p>
-	<p id="tr1VoltDown" style="position: absolute; left: 200px; top: 260px; font-size: 14px; color: red"></p>
-	<p id="tr2VoltUp" style="position: absolute; left: 490px; top: 210px; font-size: 14px; color: red"></p>
-	<p id="tr2VoltDown" style="position: absolute; left: 490px; top: 260px; font-size: 14px; color: red"></p>
-
-
-
-</div>
-
-
-
-<div class="parentPopup" id="parentPopup">
-	<div class="popup" id="popUpContent">    
-		  
-	</div>
-</div>
-
- 
-<div id="copyright"> &copy;<script>document.write(new Date().getFullYear())</script> SOLVE - The Virtual Lab @ NITK Surathkal</div>
-</div>
-<script type="text/javascript" src="js/transformer.js"></script>
-
-</body>
+      <div class="copyright">
+        <span style="font-weight: 900; font-size: 1.4rem">&copy;&nbsp;</span>
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        SOLVE - The Virtual Lab @ NITK Surathkal
+      </div>
+      <div class="parentPopup displayy" id="parentPopup">
+        <div class="popup" id="popUpContent"></div>
+        <span></span>
+      </div>
+    </div>
+  </body>
 </html>
