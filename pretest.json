@@ -1,0 +1,209 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The transformer works on principle of ___________ .",
+      "answers": {
+        "a": "Self-induction",
+        "b": "Mutual induction",
+        "c": "Both Self-induction and Mutual induction",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "DC supply __________ be used for the transformer.",
+      "answers": {
+        "a": "Can",
+        "b": "Connect",
+        "c": "Both Can and Connect",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "The ratio of secondary induced emf to primary induced emf is known as _________ .",
+      "answers": {
+        "a": "Voltage transform ratio",
+        "b": "Current ratio",
+        "c": "Power ratio",
+        "d": "All"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "Current ratios are in _________ of the voltage ratio.",
+      "answers": {
+        "a": "Direct ratio",
+        "b": "Inverse ratio ",
+        "c": "Both",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "Instrument Transformer are used because",
+      "answers": {
+        "a": "It is cheap",
+        "b": "It provides more safety",
+        "c": "It is not practicable to connect instruments and meters directly to the lines in high voltage circuits",
+        "d": "Both it provides more safety and it is not practicable to connect instruments and meters directly to the lines in high voltage circuits"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "A potential transformer is a ___________",
+      "answers": {
+        "a": "Step up transformer",
+        "b": "Step down transformer",
+        "c": "Both Step up transformer and Step down transformer",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "A current transformer is a ________",
+      "answers": {
+        "a": "Step up transformer",
+        "b": "Step down transformer",
+        "c": "Both Step up transformer and Step down transformer",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "In a power transformer, stepping down from 33kV to 11kV on load tap changes is provided along with 16 steps with 1.25% voltage changes in each step and a constant secondary voltage of 11kV is required. If the primary voltage changes from 33kV to 29.5kV then",
+      "answers": {
+        "a": "The taps should be lowered 5 times",
+        "b": "The taps should be lowered 6 times",
+        "c": "The taps should be lowered 11 times",
+        "d": "The taps should be lowered 9 times"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    },
+    {
+      "question": "In a power transformer, stepping down from 33kV to 11kV on load tap changes is provided along with 16 steps with 1.25% voltage changes in each step and a constant secondary voltage of 11kV is required. If the primary voltage changes from 33kV to 34kV then",
+      "answers": {
+        "a": "The taps should be lowered 4 times",
+        "b": "The taps should be raised 4 times",
+        "c": "The taps should be raised 2 times",
+        "d": "The taps should be raised 1 times"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "The current transformer ratio is not equal to the ratio of secondary to primary turns.",
+      "answers": {
+        "a": "The above statement is false",
+        "b": "The above statement is false, because of the effect of magnetizing current",
+        "c": "The above statement is true, because of the effect of magnetizing current",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "Advantage of using instrument Transformer is",
+      "answers": {
+        "a": "Standard rated instruments may be used easily",
+        "b": "It provides safety for operating personal",
+        "c": "Both standard rated instruments may be used easily and it provides safety for operating personal",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": ""
+    },
+    {
+      "question": "Potential transformers are carefully designed to ensure",
+      "answers": {
+        "a": "Minimum variation of voltage ratio with load and minimum phase shift between input and output voltages",
+        "b": "Minimum variation of voltage ratio with load and maximum phase shift between input and output voltages",
+        "c": "Maximum variation of voltage ratio with load and maximum phase shift between input and output voltages",
+        "d": "Maximum variation of voltage ratio with load and minimum phase shift between input and output voltages"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": ""
+    }
+  ]
+}

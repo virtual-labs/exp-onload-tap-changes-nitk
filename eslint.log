@@ -1,0 +1,32 @@
+
+/home/runner/work/exp-onload-tap-changes-nitk/exp-onload-tap-changes-nitk/experiment/simulation/js/transformer.js
+    7:5   warning  'instructions' is assigned a value but never used  no-unused-vars
+   12:10  warning  'typeWriter' is defined but never used             no-unused-vars
+  259:34  warning  'circuit' is defined but never used                no-unused-vars
+  259:43  warning  'index' is defined but never used                  no-unused-vars
+  279:10  warning  'blinkArrow' is defined but never used             no-unused-vars
+  287:10  warning  'updateList' is defined but never used             no-unused-vars
+  298:17  warning  Unnecessary escape character: \o                   no-useless-escape
+  305:10  warning  'removeInfo' is defined but never used             no-unused-vars
+  309:10  warning  'giveOptions' is defined but never used            no-unused-vars
+  313:9   warning  'takeOut' is assigned a value but never used       no-unused-vars
+  314:9   warning  'takeIn' is assigned a value but never used        no-unused-vars
+  318:9   warning  'takeOutHide' is assigned a value but never used   no-unused-vars
+  319:9   warning  'takeInHide' is assigned a value but never used    no-unused-vars
+  332:10  warning  'changeSwitchStatus' is defined but never used     no-unused-vars
+  333:3   warning  'data' is not defined                              no-undef
+  345:3   warning  'updateTable' is not defined                       no-undef
+  357:10  warning  'closeModal' is defined but never used             no-unused-vars
+  362:10  warning  'setOperation' is defined but never used           no-unused-vars
+  580:10  warning  'resetSetup' is defined but never used             no-unused-vars
+
+/home/runner/work/exp-onload-tap-changes-nitk/exp-onload-tap-changes-nitk/experiment/simulation/js/transformer2.js
+   12:5   warning  'popUpTextLower' is assigned a value but never used      no-unused-vars
+   14:5   warning  'popUpRegulatedText' is assigned a value but never used  no-unused-vars
+  169:10  warning  'UpdateVoltageOnChange' is defined but never used        no-unused-vars
+  186:10  warning  'calculateV2OnRaise' is defined but never used           no-unused-vars
+  248:10  warning  'calculateV2OnLower' is defined but never used           no-unused-vars
+  321:10  warning  'closeModal' is defined but never used                   no-unused-vars
+
+✖ 25 problems (0 errors, 25 warnings)
+
